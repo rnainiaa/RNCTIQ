@@ -144,7 +144,7 @@ Keys for VirusTotal, AbuseIPDB, Shodan, GreyNoise, OTX, Censys or abuse.ch
 
 ### 1. Sign in
 
-![RNCTIQ sign-in screen](docs/screenshots/01-connexion.png)
+![RNCTIQ sign-in screen](screenshots/01-connexion.png)
 
 **What you are looking at** — The authentication screen, with an optional
 checkbox to unlock the API key vault at sign-in.
@@ -172,7 +172,7 @@ lock automatically after inactivity (`Ctrl+L` to lock manually).
 
 ### 2. Dashboard
 
-![Dashboard](docs/screenshots/02-tableau-de-bord.png)
+![Dashboard](screenshots/02-tableau-de-bord.png)
 
 **What you are looking at** — Ten headline figures, three charts (threat level
 breakdown, 14-day activity, target types) and a table of the latest analyses
@@ -199,7 +199,7 @@ what needs a decision, and whether your tooling is healthy.
 **How to use it** — *Analyse IP* tab (`Ctrl+1`), type the address, click
 **Analyser** (Analyse).
 
-![IP analysis - summary](docs/screenshots/03-analyse-ip.png)
+![IP analysis - summary](screenshots/03-analyse-ip.png)
 
 **What you are looking at** — A "Verdict" banner: the target, the level
 (`FAIBLE` = low), the classification, the score out of 100 with its gauge, and a
@@ -221,7 +221,7 @@ actionable item on the sheet.
 
 #### VPN / proxy / TOR detection
 
-![Infrastructure and anonymisation](docs/screenshots/04-infrastructure-vpn-tor.png)
+![Infrastructure and anonymisation](screenshots/04-infrastructure-vpn-tor.png)
 
 **What you are looking at** — Four cards (detected type, provider, confidence,
 anonymisation) followed by the numbered list of **indicators that led to the
@@ -248,7 +248,7 @@ next: you will need a legal request, not an inference.
 **How to use it** — *Analyse de domaine* tab (`Ctrl+2`). Three checkboxes
 control depth: use cache, enumerate subdomains, active resolution.
 
-![Domain analysis - summary](docs/screenshots/05-analyse-domaine.png)
+![Domain analysis - summary](screenshots/05-analyse-domaine.png)
 
 **What you are looking at** — Domain age, registrar, A records, subdomain count,
 email security posture and certificate validity — followed by findings and
@@ -270,7 +270,7 @@ evidence.
 
 #### DNS and email security
 
-![DNS and email security](docs/screenshots/06-dns-securite-mail.png)
+![DNS and email security](screenshots/06-dns-securite-mail.png)
 
 **What you are looking at** — All records on the left (A, AAAA, MX, TXT, NS,
 SOA, CAA). On the right, an assessment of SPF, DNSSEC, DMARC and DKIM with a
@@ -293,7 +293,7 @@ infrastructure designed to move fast.
 
 #### TLS certificate
 
-![TLS certificate](docs/screenshots/07-certificat-tls.png)
+![TLS certificate](screenshots/07-certificat-tls.png)
 
 **What you are looking at** — Common name, organisation, issuing authority,
 validity dates, duration, days remaining, expiry and self-signing flags.
@@ -312,7 +312,7 @@ and hard to backdate.
 
 #### Subdomains
 
-![Discovered subdomains](docs/screenshots/08-sous-domaines.png)
+![Discovered subdomains](screenshots/08-sous-domaines.png)
 
 **What you are looking at** — The list of subdomains, their resolved IP
 addresses, their status (`Actif` = active / `Inactif` = inactive) and the
@@ -338,7 +338,7 @@ A criminal changes IP in an hour and domain in a day. They change their
 **certificate, name servers or TLS configuration** far less often. That is where
 continuity lives.
 
-![Fingerprints and pivots](docs/screenshots/09-empreintes-pivots.png)
+![Fingerprints and pivots](screenshots/09-empreintes-pivots.png)
 
 **What you are looking at** — A table of fingerprints (type, value, reliability,
 source, what they can find) and, below it, **ready-to-copy queries** for Shodan,
@@ -367,7 +367,7 @@ infrastructure**. The "Rechercher les domaines liés" button queries crt.sh
 **How to use it** — *Graphe* tab, pick the source (last analysis, active case,
 or all stored relations), then **Construire le graphe** (build the graph).
 
-![Graph view](docs/screenshots/10-graphe.png)
+![Graph view](screenshots/10-graphe.png)
 
 **What you are looking at** — The entity graph, a statistics panel (nodes,
 relations, components, density), the **pivot nodes** table with their
@@ -390,7 +390,7 @@ thirty seconds.
 
 **Available exports** — PNG, PDF, interactive HTML, GraphML (Gephi), JSON.
 
-![Graph PNG export](docs/screenshots/11-graphe-export.png)
+![Graph PNG export](screenshots/11-graphe-export.png)
 
 *PNG export ready to drop into a report: shapes and colours by entity type,
 outline by risk level.*
@@ -402,7 +402,7 @@ outline by risk level.*
 **How to use it** — `Ctrl+N` to open a case. It becomes the active case:
 **every subsequent analysis is attached to it automatically**.
 
-![Cases view](docs/screenshots/12-enquetes.png)
+![Cases view](screenshots/12-enquetes.png)
 
 **What you are looking at** — The case list on the left; on the right the
 auto-generated reference, status, priority, TLP classification, keywords,
@@ -423,7 +423,7 @@ becomes **an exhibit attached to a procedure**, timestamped and attributed.
 
 #### Cross-case overlaps
 
-![Cross-case overlaps](docs/screenshots/13-recoupements.png)
+![Cross-case overlaps](screenshots/13-recoupements.png)
 
 **What you are looking at** — One case shares infrastructure with another:
 common indicators, indirect links, **confidence level**, and the detail of the
@@ -447,7 +447,7 @@ justify joining two procedures.**
 
 #### Target history
 
-![Target history](docs/screenshots/14-historique.png)
+![Target history](screenshots/14-historique.png)
 
 **What you are looking at** — How long the target has been tracked, the table of
 **detected changes** with severity, then a timeline of each attribute: value,
@@ -476,7 +476,7 @@ This moves the tool **from reactive to proactive**: instead of re-running an
 analysis by hand, you place a target under watch and get alerted when something
 moves.
 
-![Continuous monitoring](docs/screenshots/15-surveillance.png)
+![Continuous monitoring](screenshots/15-surveillance.png)
 
 **What you are looking at** — Watched targets, their checks, frequency, status,
 next check and alert count. Below, the alert log.
@@ -495,7 +495,7 @@ re-analysis**. The case updates itself, even if nobody has opened it for weeks.
 **Why this matters** — Without monitoring, you learn that a dormant domain went
 live again **from the next victim**.
 
-![Monitoring check selection](docs/screenshots/16-surveillance-controles.png)
+![Monitoring check selection](screenshots/16-surveillance-controles.png)
 
 **Each check states what it detects**, not merely what it measures: "change of
 DNS servers: domain takeover, judicial seizure or transfer". The alert arrives
@@ -515,7 +515,7 @@ already interpreted.
 **How to use it** — *Outils → Extraire les IOC d'un texte…* (Tools → Extract
 IOCs from text).
 
-![Automatic IOC extraction](docs/screenshots/17-extraction-ioc.png)
+![Automatic IOC extraction](screenshots/17-extraction-ioc.png)
 
 **What you are looking at** — Free text pasted at the top (email, report, log);
 at the bottom, the extracted and typed indicators: IPs, domains, URLs, emails,
@@ -536,7 +536,7 @@ transcription errors.
 
 #### Indicator database
 
-![Indicator database](docs/screenshots/18-base-indicateurs.png)
+![Indicator database](screenshots/18-base-indicateurs.png)
 
 **What you are looking at** — Each indicator with its type, value, threat level,
 score, confidence, source, parent case and observation date.
@@ -555,7 +555,7 @@ Double-clicking re-runs the analysis.
 
 #### Global search
 
-![Global search](docs/screenshots/19-recherche-globale.png)
+![Global search](screenshots/19-recherche-globale.png)
 
 **What you are looking at** — A search box and three tabs: cases, archived
 analyses, indicators.
@@ -582,8 +582,8 @@ seconds** — including on a case handled by a colleague six months ago.
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/21-rapport-pdf-garde.png" alt="PDF report cover page"></td>
-<td width="50%"><img src="docs/screenshots/22-rapport-pdf-corps.png" alt="PDF report body"></td>
+<td width="50%"><img src="screenshots/21-rapport-pdf-garde.png" alt="PDF report cover page"></td>
+<td width="50%"><img src="screenshots/22-rapport-pdf-corps.png" alt="PDF report body"></td>
 </tr>
 </table>
 
@@ -606,7 +606,7 @@ next: quality no longer depends on the writer.
 
 ### 11. Settings
 
-![Settings](docs/screenshots/23-configuration.png)
+![Settings](screenshots/23-configuration.png)
 
 **What you are looking at** — The secret vault (to be created on first launch),
 one field per OSINT source with a "get a key" link, and the **connector status**
@@ -627,7 +627,7 @@ a config file. The displayed rate limit stops you burning a quota mid-incident.
 
 ### Built-in documentation
 
-![Built-in documentation](docs/screenshots/24-documentation.png)
+![Built-in documentation](screenshots/24-documentation.png)
 
 The **Investigator's Manual** is embedded in the executable: clickable table of
 contents, full-text search, adjustable text size. Reach it via *Aide → Manuel de
@@ -752,7 +752,7 @@ RNCTIQ applies one simple rule: **any function that opens a connection to the
 target is disabled by default** and requires explicit authorisation, recorded in
 the audit trail.
 
-![Active scan legal warning](docs/screenshots/20-scan-actif-avertissement.png)
+![Active scan legal warning](screenshots/20-scan-actif-avertissement.png)
 
 **What you are looking at** — A warning banner citing the applicable statutes, a
 checkbox reading "Je certifie disposer d'une autorisation légale" (I certify
