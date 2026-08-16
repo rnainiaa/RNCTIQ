@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# RNCTIQ - fichiers a ne JAMAIS publier
+# ---------------------------------------------------------------------------
+
+# --- Donnees d'enquete et secrets (CRITIQUE) -------------------------------
+# Une base de test peut contenir des cibles reelles, des IOC et des noms
+# d'analystes. Le coffre-fort contient vos cles d'API chiffrees.
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/vault.enc
+config/config.yaml
+*.mmdb
+
+# --- Journaux ---------------------------------------------------------------
+logs/
+*.log
+*.log.*
+tests-echecs.log
+
+# --- Rapports generes -------------------------------------------------------
+reports/generated/
+!reports/generated/.gitkeep
+
+# --- Artefacts de compilation ----------------------------------------------
+dist/
+build/
+obj-pyinstaller/
+*.spec.bak
+.venv-build/
+*.exe
+*.bin
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Systeme et editeurs ----------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
