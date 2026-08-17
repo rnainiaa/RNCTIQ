@@ -877,6 +877,7 @@ Le **Manuel de l'enquêteur** est également embarqué dans l'exécutable:<br>
     <img src="https://img.shields.io/badge/Télécharger-RNCTIQ%20v1.0.0-blue?style=for-the-badge&logo=github" alt="Télécharger RNCTIQ">
   </a>
 </p>
+
 ---
 
 <div align="center">
