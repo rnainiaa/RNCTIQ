@@ -860,11 +860,11 @@ gardant son compte et sa piste d'audit nominative.
 
 ## Pour aller plus loin
 
-Ce README décrit l'usage de l'exécutable.
-Le **Manuel de l'enquêteur** est également embarqué dans l'exécutable: 
-*Aide → Manuel de l'enquêteur*.
-**Exemple d'enquête complete** est également embarqué dans l'exécutable :
-*Aide → Exemple d'enquête complete*.
+Ce README décrit l'usage de l'exécutable.<br>
+Le **Manuel de l'enquêteur** est également embarqué dans l'exécutable:<br>
+*Aide → Manuel de l'enquêteur*.<br>
+**Exemple d'enquête complete** est également embarqué dans l'exécutable :<br>
+*Aide → Exemple d'enquête complete*.<br>
 
 
 | Document | Contenu |
@@ -881,12 +881,13 @@ Le **Manuel de l'enquêteur** est également embarqué dans l'exécutable:
 
 <div align="center">
 
-**RNCTIQ** · Cyber Investigation & Intelligence Platform · v1.0.0
-Créateur de RNCTIQ 
-Rachid Nainiaa 
-M. Sc. Cyber Security 
-contact@rncyber.ca 
-*Les résultats produits sont des indices techniques pondérés.
+**RNCTIQ** · Cyber Investigation & Intelligence Platform · v1.0.0<br>
+Créateur de RNCTIQ<br> 
+Rachid Nainiaa<br> 
+M. Sc. Cyber Security<br>
+contact@rncyber.ca<br>
+<br>
+*Les résultats produits sont des indices techniques pondérés.<br>
 Ils constituent des hypothèses à corroborer, non des vérités judiciaires.*
 
 </div>

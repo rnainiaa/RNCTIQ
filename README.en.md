@@ -971,12 +971,12 @@ Recurring interface terms, in the order you are likely to meet them.
 
 ## Going further
 
-This README covers using the executable. 
-The **Investigator's Manual** is also embedded in the executable:
-*Aide → Manuel de l'enquêteur* (Help → Investigator's manual).
+This README covers using the executable. <br>
+The **Investigator's Manual** is also embedded in the executable: 
+*Aide → Manuel de l'enquêteur* (Help → Investigator's manual).<br>
 A **Complete Investigation Example** is also embedded in the executable:
-*Aide → Exemple d'enquête complete* (Help → Complete investigation example).
- — **note that these documents are in French**:
+*Aide → Exemple d'enquête complete* (Help → Complete investigation example).<br>
+ — **note that these documents are in French**:<br>
 
 | Document | Contenu |
 |---|---|
@@ -988,14 +988,16 @@ A **Complete Investigation Example** is also embedded in the executable:
     <img src="https://img.shields.io/badge/Download-RNCTIQ%20v1.0.0-blue?style=for-the-badge&logo=github" alt="Download RNCTIQ">
   </a>
 </p>
+
 ---
 
 <div align="center">
-**RNCTIQ** · Cyber Investigation & Intelligence Platform · v1.0.0
-Creator of RNCTIQ: Rachid Nainiaa
-M. Sc. Cyber Security
-contact@rncyber.ca
-*Results are weighted technical indicators.
+**RNCTIQ** · Cyber Investigation & Intelligence Platform · v1.0.0<br>
+Creator of RNCTIQ: Rachid Nainiaa<br>
+M. Sc. Cyber Security<br>
+contact@rncyber.ca<br>
+<br>
+*Results are weighted technical indicators.<br>
 They are hypotheses to be corroborated, not judicial findings.*
 
 </div>
