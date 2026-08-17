@@ -1,7 +1,15 @@
 <div align="center">
 
 # RNCTIQ
+<p align="center">
 
+<a href="https://github.com/rnainiaa/RNCTIQ/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Télécharger-v1.0.0-success?style=for-the-badge&logo=github">
+</a>
+
+<img src="https://img.shields.io/badge/Plateforme-Windows-lightgrey?style=for-the-badge">
+
+</p>
 **Cyber Investigation & Intelligence Platform**
 
 *Trace. Correlate. Investigate.*
@@ -852,26 +860,32 @@ gardant son compte et sa piste d'audit nominative.
 
 ## Pour aller plus loin
 
-Ce README décrit l'usage de l'exécutable. La documentation technique complète
-est dans le dépôt :
+Ce README décrit l'usage de l'exécutable.
+Le **Manuel de l'enquêteur** est également embarqué dans l'exécutable: 
+*Aide → Manuel de l'enquêteur*.
+**Exemple d'enquête complete** est également embarqué dans l'exécutable :
+*Aide → Exemple d'enquête complete*.
+
 
 | Document | Contenu |
 |---|---|
-| [`docs/README_DEVELOPPEMENT.md`](docs/README_DEVELOPPEMENT.md) | Exécution depuis les sources, architecture, tests, compilation |
-| [`docs/MANUEL_ENQUETEUR.md`](docs/MANUEL_ENQUETEUR.md) | Méthodologie, lecture des scores, pivots, cadre juridique |
-| [`docs/EXEMPLE_ENQUETE.md`](docs/EXEMPLE_ENQUETE.md) | Cas pratique commenté de bout en bout |
-| [`docs/INSTALLATION.md`](docs/INSTALLATION.md) | Clés d'API, PostgreSQL, plugins, dépannage |
-| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Diagrammes, séquences, modèle de menaces |
+| *Aide → Manuel de l'enquêteur* | Méthodologie, lecture des scores, pivots, cadre juridique |
+| *Aide → Exemple d'enquête complete* | Cas pratique commenté de bout en bout |
 
-Le **Manuel de l'enquêteur** est également embarqué dans l'exécutable :
-*Aide → Manuel de l'enquêteur*.
-
+<p align="center">
+  <a href="https://github.com/rnainiaa/RNCTIQ/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Télécharger-RNCTIQ%20v1.0.0-blue?style=for-the-badge&logo=github" alt="Télécharger RNCTIQ">
+  </a>
+</p>
 ---
 
 <div align="center">
 
 **RNCTIQ** · Cyber Investigation & Intelligence Platform · v1.0.0
-
+Créateur de RNCTIQ 
+Rachid Nainiaa 
+M. Sc. Cyber Security 
+contact@rncyber.ca 
 *Les résultats produits sont des indices techniques pondérés.
 Ils constituent des hypothèses à corroborer, non des vérités judiciaires.*
 

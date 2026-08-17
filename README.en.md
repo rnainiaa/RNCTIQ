@@ -1,7 +1,15 @@
 <div align="center">
 
 # RNCTIQ
+<p align="center">
 
+<a href="https://github.com/rnainiaa/RNCTIQ/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Download-v1.0.0-success?style=for-the-badge&logo=github">
+</a>
+
+<img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge">
+
+</p>
 **Cyber Investigation & Intelligence Platform**
 
 *Trace. Correlate. Investigate.*
@@ -963,26 +971,30 @@ Recurring interface terms, in the order you are likely to meet them.
 
 ## Going further
 
-This README covers using the executable. The full technical documentation lives
-in the repository — **note that these documents are in French**:
-
-| Document | Contents |
-|---|---|
-| [`docs/README_DEVELOPPEMENT.md`](docs/README_DEVELOPPEMENT.md) | Running from source, architecture, tests, building |
-| [`docs/MANUEL_ENQUETEUR.md`](docs/MANUEL_ENQUETEUR.md) | Methodology, reading scores, pivots, legal framework |
-| [`docs/EXEMPLE_ENQUETE.md`](docs/EXEMPLE_ENQUETE.md) | An annotated end-to-end case study |
-| [`docs/INSTALLATION.md`](docs/INSTALLATION.md) | API keys, PostgreSQL, plugins, troubleshooting |
-| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Diagrams, sequences, threat model |
-
+This README covers using the executable. 
 The **Investigator's Manual** is also embedded in the executable:
 *Aide → Manuel de l'enquêteur* (Help → Investigator's manual).
+A **Complete Investigation Example** is also embedded in the executable:
+*Aide → Exemple d'enquête complete* (Help → Complete investigation example).
+ — **note that these documents are in French**:
 
+| Document | Contenu |
+|---|---|
+| *Aide → Manuel de l'enquêteur* (Help → Investigator's manual) | Methodology, score interpretation, investigative pivots, legal framework |
+| *Aide → Exemple d'enquête complete* (Help → Complete investigation example) | An annotated end-to-end practical case study with all steps and details |
+
+<p align="center">
+  <a href="https://github.com/rnainiaa/RNCTIQ/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Download-RNCTIQ%20v1.0.0-blue?style=for-the-badge&logo=github" alt="Download RNCTIQ">
+  </a>
+</p>
 ---
 
 <div align="center">
-
 **RNCTIQ** · Cyber Investigation & Intelligence Platform · v1.0.0
-
+Creator of RNCTIQ: Rachid Nainiaa
+M. Sc. Cyber Security
+contact@rncyber.ca
 *Results are weighted technical indicators.
 They are hypotheses to be corroborated, not judicial findings.*
 
