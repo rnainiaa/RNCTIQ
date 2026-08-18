@@ -777,8 +777,7 @@ par PyInstaller : l'auto-extraction au démarrage ressemble, pour un moteur
 heuristique, au comportement d'un empaqueteur malveillant.
 
 La compression UPX est volontairement désactivée car elle aggrave nettement le
-phénomène. Pour une diffusion large en entreprise, signez le binaire avec un
-certificat de signature de code, ou ajoutez une exclusion sur le dossier.
+phénomène.
 
 </details>
 

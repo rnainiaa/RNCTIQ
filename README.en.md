@@ -839,8 +839,7 @@ executables: the self-extraction at startup resembles, to a heuristic engine,
 the behaviour of a malicious packer.
 
 UPX compression is deliberately disabled because it makes the problem
-noticeably worse. For wide deployment, sign the binary with a code-signing
-certificate or add a folder exclusion.
+noticeably worse.
 
 </details>
 
